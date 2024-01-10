@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility_class.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left  margin">
+            <div class="home bg-grey rounded">
+                <div class="cross"><img class="invert" width="30px" src="All svg/cross.svg" alt=""></div>
+                <div class="logo"><img class="invert" src="All svg/logo.svg" alt="logo"></div>
+                <ul class="home_items">
+                    <li class="home_items flex "><img class="invert" src="All svg/home.svg" alt="home">Home</li>
+                    <li class="home_items flex "><img class="invert" src="All svg/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded  ">
+                <div class="library_image flex item-center">
+                    <img class="invert" src="All svg/library.svg" alt="">
+                    <span>Your Library</span>
+                </div>
+                <div class="songList">
+                  <ul>
+                    
+                  </ul>
+                </div>
+                <footer class="footer flex " >
+                    <div><a href="https://www.spotify.com/us/legal/" id="" data-encore-id="textLink"><span
+                                data-encore-id="type">Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/us/privacy/" id="" data-encore-id="textLink"><span
+                                data-encore-id="type">Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/us/legal/privacy-policy/" id=""
+                            data-encore-id="textLink"><span data-encore-id="type">Privacy Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/us/legal/cookies-policy/" id=""
+                            data-encore-id="textLink"><span data-encore-id="type">Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/us/legal/privacy-policy/#s3" id=""
+                            data-encore-id="textLink"><span data-encore-id="type">About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/us/accessibility/" id="" data-encore-id="textLink"><span
+                                data-encore-id="type">Accessibility</span></a></div>
+                    <div><a href="https://www.spotify.com/us/legal/notice-at-collection/" id=""
+                            data-encore-id="textLink"><span data-encore-id="type">Notice at Collection</span></a></div>
+                </footer>
+            </div>
+        </div>
+        <div class="right  bg-grey rounded">
+            <div class="header flex ">
+              
+                <div class="navbar rounded flex">
+                  <div class="hamburgerContainer">
+                    <div class="hamburger invert">
+                      <img width="44px" src="All svg/hamburger.svg" alt="">
+                    </div>
+                    <div class="arrow ">
+                        <svg class="invert" height="30px" id="Layer_1" style="enable-background:new 0 0 512 512;"
+                            version="1.1" viewBox="0 0 512 512" width="30px" xml:space="preserve"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <polygon points="352,115.4 331.3,96 160,256 331.3,416 352,396.7 201.5,256 " />
+                        </svg>
+                    </div>
+
+                    <div class="arrow "><svg class="invert" height="30px" id="Layer_1" style="enable-background:new 0 0 512 512;"
+                            version="1.1" viewBox="0 0 512 512" width="30px" xml:space="preserve"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <polygon points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256 " />
+                        </svg>
+                    </div>
+                  </div>
+                    
+                </div>
+                <div class="buttons ">
+                    <button class="signupbtn">SignUp</button>
+                    <button class="loginbtn">Login</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <div class="playlist_text ">
+                    <h1>Spotify Playlists</h1>
+                    <span>Show all</span>
+
+                </div>
+                <div class="songCardContainer">
+                    
+                    
+                </div>
+                <div class="playbar invert">
+                  <div class="seekbar">
+                    <div class="circle"></div>
+                  </div>
+                  <div class="song_name_ppv">
+                    <div class="songName ">
+
+                    </div>
+                    <div class="songbuttons ">
+                      <img id="previous" src="All svg/previous.svg" alt="">
+                      <img id="play" id="playbutton" src="All svg/play.svg" alt="">
+                      <img id="next" src="All svg/next.svg" alt="">
+                    </div>
+                    <div class="timeVol flex">
+                      <div class="songtime">
+  
+                      </div>
+                      <div class="vol flex">
+                        <img width="30px" src="All svg/volume.svg" alt="">
+                        <div class="range">
+                          <input type="range" name="" id="">
+                        </div>
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
